@@ -8,7 +8,7 @@ const ContactPage = () => {
       <SEO title="Contact" />
       <h1>Contact</h1>
       <p>
-        You can reach out to me on Twitter via
+        You can reach out to me on Twitter via{" "}
         <a
           href="https://www.twitter.com/_jakewheeler"
           target="_blank"
