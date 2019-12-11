@@ -1,3 +1,23 @@
 .footer {
   margin-top: 3rem;
+  display: flex;
+}
+
+.social-nav {
+  justify-content: right;
+}
+
+.social-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 3rem;
+}
+
+.social-list-item {
+  margin-right: 1.3rem;
+
+  img {
+    min-height: 30px;
+  }
 }
