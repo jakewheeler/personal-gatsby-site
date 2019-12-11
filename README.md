@@ -1,5 +1,7 @@
 # Personal Website
 
-This is my personal website that I created using Gatsby.js.
+This is my personal website created with Gatsby.js.
 
-I plan to deploy this site to [Netlify](https://www.netlify.com) in place of my old site.
+You can check out the site live at [https://www.jakewheeler.dev/](https://www.jakewheeler.dev/)!
+
+This site is deployed by [https://www.netlify.com/](https://www.netlify.com/)
