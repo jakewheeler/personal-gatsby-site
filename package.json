@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "jakewheeler.dev",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Jake Wheeler's Personal Website",
+  "version": "1.0.0",
+  "author": "Jake Wheeler <jakewheeler17@gmail.com>",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.4.0",
-    "gatsby": "^2.19.15",
+    "gatsby": "^2.20.29",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-google-analytics": "^2.1.35",
     "gatsby-plugin-manifest": "^2.2.31",
@@ -35,7 +35,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "env-cmd -f .env.development gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
