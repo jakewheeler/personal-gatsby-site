@@ -3,7 +3,7 @@
 }
 
 .title {
-  color: #000000;
+  color: var(--textTitle);
   font-size: 3rem;
   text-decoration: none;
 }
@@ -15,7 +15,7 @@
 }
 
 .nav-item {
-  color: #999999;
+  color: var(--normalNav);
   font-size: 0.9rem;
   margin-right: 1.3rem;
   text-decoration: none;
@@ -26,5 +26,5 @@
 }
 
 .active-nav-item {
-  color: #333333;
+  color: var(--activeNav);
 }
