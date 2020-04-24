@@ -11,7 +11,7 @@ export const DarkModeToggler = () => {
             onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
             checked={theme === "dark"}
           />{" "}
-          Dark mode
+          Dark
         </label>
       )}
     </ThemeToggler>

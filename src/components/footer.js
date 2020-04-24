@@ -21,7 +21,11 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={twitter} alt={"Twitter"} />
+                <img
+                  src={twitter}
+                  alt={"Twitter"}
+                  style={{ filter: "invert(var(--svgInvert))" }}
+                />
               </a>
             </li>
             <li className={footerStyles.socialListItem}>
@@ -30,7 +34,11 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={linkedin} alt={"LinkedIn"} />
+                <img
+                  src={linkedin}
+                  alt={"LinkedIn"}
+                  style={{ filter: "invert(var(--svgInvert))" }}
+                />
               </a>
             </li>
             <li className={footerStyles.socialListItem}>
@@ -39,7 +47,11 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={github} alt={"GitHub"} />
+                <img
+                  src={github}
+                  alt={"GitHub"}
+                  style={{ filter: "invert(var(--svgInvert))" }}
+                />
               </a>
             </li>
           </ul>

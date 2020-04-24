@@ -7,11 +7,17 @@ import { DarkModeToggler } from "./themeTogger"
 
 const Header = ({ siteTitle }) => (
   <header className={headerStyles.header}>
-    <h1>
-      <Link className={headerStyles.title} to="/">
-        {siteTitle}
-      </Link>
-    </h1>
+    <div className={headerStyles.headerFlex}>
+      <h1>
+        <Link className={headerStyles.title} to="/">
+          {siteTitle}
+        </Link>
+      </h1>
+      <div className={headerStyles.headerFlexItem}>
+        <DarkModeToggler />
+      </div>
+    </div>
+
     <nav>
       <ul className={headerStyles.navList}>
         <li>
@@ -52,7 +58,6 @@ const Header = ({ siteTitle }) => (
         </li>
       </ul>
     </nav>
-    <DarkModeToggler />
   </header>
 )
 
