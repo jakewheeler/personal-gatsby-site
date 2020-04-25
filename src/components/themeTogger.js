@@ -9,7 +9,6 @@ export const DarkModeToggler = () => {
     <ThemeToggler>
       {({ theme, toggleTheme }) => (
         <Toggle
-          className="custom-classname"
           onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
           checked={theme === "dark"}
           aria-label="Dark mode"
