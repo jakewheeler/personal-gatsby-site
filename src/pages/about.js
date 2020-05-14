@@ -23,7 +23,7 @@ const AboutPage = () => {
         Even today, I am more passionate about software than ever before.
         Although I am focused on cloud automation at work, I'm very interested
         in the JavaScript ecosystem when working on my own projects at home.
-        Right now, I am enjoying working work with Node.js and React.
+        Right now, I am enjoying working with Node.js, TypeScript, and React.
         <br />
         <br />
         In my free time I enjoy coding, exercising, music production, listening
