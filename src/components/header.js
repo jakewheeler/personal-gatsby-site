@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import headerStyles from "../styles/header.module.scss"
-import { DarkModeToggler } from "./themeTogger"
 
 const Header = ({ siteTitle }) => {
   return (
@@ -14,9 +13,6 @@ const Header = ({ siteTitle }) => {
             {siteTitle}
           </Link>
         </h1>
-        <div className={headerStyles.headerFlexItem}>
-          <DarkModeToggler />
-        </div>
       </div>
 
       <nav>
